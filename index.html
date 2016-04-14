@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngularApp" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <title>Angular App</title>
+</head>
+<body>
+  <h1>Angular app!</h1>
+
+  <div ui-view></div>
+
+  <li><a ui-sref="gallery">Gallery</a></li>
+  <li><a ui-sref="admin">Admin</a></li>
+
+
+
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/angular/angular.js"></script>
+<script src="./node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="./bower_components/firebase/firebase.js"></script>
+<script src="./node_modules/angularfire/dist/angularfire.js"></script>
+<script src="./controllers/controllers.js"></script>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

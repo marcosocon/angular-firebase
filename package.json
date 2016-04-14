@@ -1,0 +1,18 @@
+{
+  "name": "angular-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Ocon <oconmarcos97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "angularfire": "*",
+    "jquery": "^2.2.3"
+  }
+}
