@@ -5,8 +5,21 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-3">
-      <li ng-repeat="item in items">{{item.name}}</li>
+    <div class="col-xs-6 col-xs-offset-3 text-center">
+      <form ng-submit="addItem()">
+        <input type="text" placeholder="Name" class="form-control" ng-model="name" required/>
+        <input type="number" step="any" placeholder="Price" class="form-control" ng-model="price" required/>
+        <input type="text" placeholder="Photo URL" class="form-control" ng-model="photo" required/>
+        <button type="submit" class="btn btn-info">Add</button>
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3" ng-repeat="item in items">
+      <img ng-src="{{item.photo}}"/>
+      <strong>{{item.name}}</strong><br>
+      <strong>{{item.price | currency}}</strong><br>
+      <button class="btn btn-danger" ng-click="removeItem(item)">Delete</button>
     </div>
   </div>
 </div>
