@@ -1,4 +1,3 @@
-# angular-firebase
 #Welcome to Angular-Firebase!
 ===================
 
