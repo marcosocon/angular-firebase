@@ -13,4 +13,7 @@ Run the App
 
 Run the app with the following commands 
   > npm install
+
+----------
+
   > bower install
